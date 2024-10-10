@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form validation</title>
+    <link rel="stylesheet" href="valdi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a> 
+        <a href="#"><i class="fa fa-search"></i></a> 
+        <a href="#"><i class="fa fa-envelope"></i></a> 
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-trash"></i></a> 
+      </div>
+
+   <div class="container bg-secondary text-white mt-3">
+    <h1>Hello guys! I hope you are ok.</h1>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Aspernatur nobis sint hic qui nihil neque ipsum excepturi. <br> Voluptas, sed voluptatibus?
+    </p>
+
+    <!-- <form action="#" name="forom" class="container"> -->
+        <!-- Enter full name: <input type="text" name="name" id="name"> <br> <br>
+        Enter email: <input type="text" name="email" id="email"> <br> <br> -->
+        Phone number: <input type="number" id="number" min="10"> <br> <br>
+        Click here to submit your form:
+        <input type="submit" name="submit" id="submit" value="submit" onclick="myFom()">
+    <!-- </form> -->
+    console.log("Amatunda");
+    <strong><p id="result" class="text-warning">ok</p></strong>
+   </div>
+   <div id="ajax">
+    <h4>Ajax is good for us for sure.</h4>
+    <button type="button" onclick="Ajaxx()">change this</button>
+   </div>
+    <script src="/formvad.js"></script>
+    <script src="/Ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
